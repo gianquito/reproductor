@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow: hidden;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    user-select: none;
+}
+
+.vis{
+    cursor: default;
+}
+
+div:has(> div.hid) {
+    cursor: none;
+}
